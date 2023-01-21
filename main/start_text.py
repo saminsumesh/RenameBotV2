@@ -1,6 +1,6 @@
 from pyrogram import Client, filters, enums
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup 
-from config import PREMUIM_USER
+# from config import PREMUIM_USER
 from script import Script
  
 
