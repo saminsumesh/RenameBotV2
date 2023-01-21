@@ -61,12 +61,12 @@ async def closed(bot, msg):
         return
 
 
-@Client.on_message(filters.command("Plan"))
-async def plan(bot, msg):
-    user = msg.from_user.id
-    if user not in PREMUIM_USER:
-        await msg.reply_text(f"{msg.from_user.id} Dear user you are currently not subscribed to any plans. Please upgrade a plan to use this bot.")
-    else:
-        await msg.reply_text(
-            "Plan Details Will be added soon."
-        )
+# @Client.on_message(filters.command("Plan"))
+# async def plan(bot, msg):
+#     user = msg.from_user.id
+#     if user not in :
+ #        await msg.reply_text(f"{msg.from_user.id} Dear user you are currently not subscribed to any plans. Please upgrade a plan to use this bot.")
+ #    else:
+   #      await msg.reply_text(
+  # #           "Plan Details Will be added soon."
+   # # #      )
